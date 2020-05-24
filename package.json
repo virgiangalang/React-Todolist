@@ -1,10 +1,10 @@
 {
-  "name": "react",
+  "name": "react-todolist",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "",
   "keywords": [
-    "react",
-    "starter"
+    "starter",
+    "react"
   ],
   "main": "src/index.js",
   "dependencies": {
