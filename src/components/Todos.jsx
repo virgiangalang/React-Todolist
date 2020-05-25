@@ -12,10 +12,12 @@ const Todos = ({ todos }) => {
   );
 };
 
-Todos.PropTypes ={
-  todos: PropTypes.arrayOf(PropTypes.shape({
-    text: PropTypes.string;
-  }))
-}
+Todos.PropTypes = {
+  todos: PropTypes.arrayOf(
+    PropTypes.shape({
+      text: PropTypes.string
+    })
+  )
+};
 
 export default Todos;
