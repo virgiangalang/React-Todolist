@@ -11,10 +11,19 @@ const TodoList = () => {
     { text: "Learning React Hooks" },
     { text: "Learning styling in React" }
   ]);
+
+  const addTodo = value => {
+    const addedTodo = [...todos, { text: value }];
+
+    setTodos(addedTodo);
+  };
+
+  console.log("todos", todos);
+
   return (
     <Paper>
       <Header />
-      <TodoForm />
+      <TodoForm addTodo={addTodo} />
 
       <Todos todos={todos} />
     </Paper>
