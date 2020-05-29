@@ -33,6 +33,7 @@ const TodoForm = ({ addTodo, showAdd }) => {
             value={value}
             onChange={e => setValue(e.target.value)}
           />
+
           <button className="add-btn main-black-color">Add</button>
         </form>
       </section>
