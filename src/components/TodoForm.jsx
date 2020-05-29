@@ -22,6 +22,7 @@ const TodoForm = ({ addTodo, showAdd }) => {
     alert(value);
     setValue("");
   };
+  console.log("value", value);
 
   if (showAdd) {
     return (
@@ -42,6 +43,7 @@ const TodoForm = ({ addTodo, showAdd }) => {
     return null;
   }
 };
+
 TodoForm.PropTypes = {
   addTodo: PropTypes.func.isRequired,
   showAdd: PropTypes.bool.isRequired
