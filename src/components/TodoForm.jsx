@@ -22,7 +22,7 @@ const TodoForm = ({ addTodo, showAdd }) => {
     alert(value);
     setValue("");
   };
-  console.log("value" value);
+
   if (showAdd) {
     return (
       <section className="add">
